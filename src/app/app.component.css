@@ -1,0 +1,164 @@
+.title{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media screen and (max-width:1235px){
+    .title{
+        position: relative;
+        left: 20px;
+    }
+    .c1{
+        position: relative;
+        left: 260px;
+    }
+    .c2{
+        position: relative;
+        left: 360px;
+    }
+    .c3{
+        position: relative;
+        top:450px;
+        right: 350px;
+    }
+    .c4{
+        position: relative;
+        top:450px;
+        right: 250px;
+    }
+}
+@media screen and (max-width:1200px){
+    .title{
+        position: relative;
+        left: 30px;
+    }
+    .c1{
+        position: relative;
+        left: 250px;
+    }
+    .c2{
+        position: relative;
+        left: 350px;
+    }
+    .c3{
+        position: relative;
+        top:450px;
+        right: 360px;
+    }
+    .c4{
+        position: relative;
+        top:450px;
+        right: 260px;
+    }
+}
+@media screen and (max-width:1160px){
+    .title{
+        position: relative;
+        left: 40px;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:1130px){
+    .title{
+        position: relative;
+        left: 90px;
+    }
+}
+@media screen and (max-width:1059px){
+    .title{
+        position: relative;
+        left: 110px;
+    }
+}
+@media screen and (max-width:969px){
+    .title{
+        position: relative;
+        left: 140px;
+    }
+}
+@media screen and (max-width:939px){
+    .title{
+        position: relative;
+        left: 150px;
+    }
+}
+@media screen and (max-width:929px){
+    .title{
+        position: relative;
+        left: 160px;
+        
+    }
+}
+@media screen and (max-width:899px){
+    .title{
+        position: relative;
+        left: 170px;
+        
+    }
+}
+@media screen and (max-width:859px){
+    .title{
+        position: relative;
+        left: 190px;
+        
+    }
+}
+@media screen and (max-width:850px) {
+    .title{
+        position: relative;
+        left: 20px;
+        font-size: 20px;
+    }
+    .c1{
+        position: relative;
+        left: 0px;
+    }
+    .c2{
+        position: relative;
+        left: 0px;
+    }
+    .c3{
+        position: relative;
+        top:0px;
+        right: 0px;
+    }
+    .c4{
+        position: relative;
+        top:0px;
+        right: 0px;
+    }
+         table tr > *{
+          display: block;
+      }
+      table tr {
+          display: table-cell;
+      }
+}
+@media screen and (max-width:370px) {
+    .title{
+        position: relative;
+        left: 15px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:270px) {
+    .title{
+        position: relative;
+        left: 20px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:245px) {
+    .title{
+        position: relative;
+        left: 30px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:220px) {
+    .title{
+        position: relative;
+        left: 50px;
+        font-size: 20px;
+    }
+}

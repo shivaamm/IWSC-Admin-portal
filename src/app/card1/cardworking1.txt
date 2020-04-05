@@ -1,0 +1,115 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  max-width: 300px;
+}
+
+.card:hover {
+  box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.img{
+    max-width: 300px;
+    max-height: 300px;
+}
+@media screen and (max-width:650px) {
+  .card{
+    padding-bottom: 20px;
+    position: relative;
+    left: 160px;
+  }
+}
+@media screen and (max-width:600px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 140px;
+}
+}
+@media screen and (max-width:570px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 120px;
+}
+}
+@media screen and (max-width:540px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 110px;
+}
+}
+@media screen and (max-width:510px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 90px;
+}
+}
+@media screen and (max-width:490px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 80px;
+}
+}
+@media screen and (max-width:470px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 70px;
+}
+}
+@media screen and (max-width:450px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 60px;
+}
+}
+@media screen and (max-width:430px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 50px;
+}
+}
+@media screen and (max-width:410px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 40px;
+}
+}
+@media screen and (max-width:390px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 30px;
+}
+}
+@media screen and (max-width:370px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 20px;
+}
+}
+@media screen and (max-width:350px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 10px;
+}
+}
+@media screen and (max-width:330px) {
+.card{
+  padding-bottom: 20px;
+  position: relative;
+  left: 0px;
+}
+}
