@@ -1,0 +1,19 @@
+{
+  "name": "login_ang",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivaamm/IWSC-Admin-portal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivaamm/IWSC-Admin-portal/issues"
+  },
+  "homepage": "https://github.com/shivaamm/IWSC-Admin-portal#readme",
+  "description": ""
+}
