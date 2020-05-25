@@ -1,0 +1,39 @@
+<div class="det">
+    <h1>
+    
+  </h1>
+  <br>
+  <div class="card">
+      <div class="card-image">
+        <div class="background-image"></div>
+        <div class="publication-details">
+          <a href="#" class="author">
+            <i class="far fa-user"></i>
+            Stay tuned at Grapido</a>
+          <span class="date"><i class="fas fa-calendar-alt"></i> {{user.date}}</span>
+        </div>
+      </div>
+
+      <div class="card-content"*ngIf="user.approve===1">
+        <h1 class="title">Event Details</h1>
+        <div class="overlay"></div>
+        <h1 class="subtitle">Photos of International academic conference on engineering and technology.</h1>
+        <h2>Name: <b>{{user.name}}</b></h2><br>
+        <h2>Venue: <b>{{user.venue}}</b></h2><br>
+        <h2>Date: <b>{{user.date}}</b></h2><br>
+        <h3>Details:- </h3><br>
+        <p class="description">
+           <i>{{user.details}}</i>
+        </p><br>
+        <div class="buttons">
+    <button class=" btn signin-btn b1 animated infinite pulse slower" (click)="approve(user._id)" type="button ">APPROVE</button>
+    <button class="btn signin-btn b2 animated infinite pulse slower" (click)="reject(user._id)" type="button">REJECT</button>
+  </div>
+        <!--<div class="cta">
+          <a href="#">Read more &rarr;</a>
+        </div> -->
+      </div>
+    </div>
+  
+  
+</div>

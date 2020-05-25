@@ -1,0 +1,82 @@
+<html>
+
+     
+  
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+   
+  <router-outlet></router-outlet>
+  
+  <!-- <table style="width:100%;text-align: left;" class="table">
+    <tr>
+      <th class="c1 animated pulse infinite slower" class="animated slideInLeft slower" style="font-family: cursive;">
+          
+     
+      <div class="card">
+          <img src="https://i.ibb.co/d5PnsLN/img1.png" class="img">
+          <div class="container">
+            <h3>Like :  <i class="fa fa-heart"  style="font-size: 20px;"></i></h3>
+            <div class="row">
+              <div class="col-12 ">
+          <table id="users" class="table-responsive-sm">
+              <tr>
+                  <th *ngFor="let col of details">
+                      {{col}}
+                  </th>
+              </tr>
+              <tr>
+                  <td class="data" *ngFor="let col of index">
+                      {{users[0][col]}}
+                  </td>
+              </tr>
+               
+          </table>
+          </div>
+          </div>
+      </div>
+      </div>
+  
+      </th><br> --> 
+
+
+      <div class="container-fluid xyz" *ngFor="let user of users" >
+       <th class="c2  animated pulse infinite slower"  class="animated slideInUp slower"style="font-family: cursive;"></th>
+      <div class="card cover container-fluid" *ngIf="user.approve===1" routerLink="/list/{{user._id}}">
+          <img src="https://i.ibb.co/DVDcvPN/img2.png" class="img">
+          <div class="container-fluid">
+                <h3> <i class="fa fa-heart"  style="font-size: 20px;"></i></h3>
+                <h3><a class="clr" >Name: <b><i>{{user.name}}</i></b></a></h3>
+                <h3><a class="clr">Date: <b><i>{{user.date}}</i> </b></a></h3>
+                <h3><a class="clr">Venue: <b><i>{{user.venue}}</i></b> </a></h3>
+          </div>
+      </div>
+      
+      
+      </div>
+  
+      <!-- </th><br>
+      <th class="c3 animated pulse infinite slower" class="animated slideInUp slower" style="font-family: cursive;">
+      <div class="card">
+          <img src="https://i.ibb.co/MV5GvTz/img3.png" class="img">
+          <div class="container">
+                <h3>Like :  <i class="fa fa-heart"  style="font-size: 20px;"></i></h3>
+                <h3><a class="clr" routerLink="/list">Inception Wave Event 3</a></h3>  
+          </div>
+      </div>
+  
+      </th><br>
+      <th class="c4  animated pulse infinite slower"  class="animated slideInLeft slower"style="font-family: cursive;">
+      <div class="card">
+          <img src="https://i.ibb.co/1bW2ssH/img4.png" class="img">
+          <div class="container">
+                <h3 >Like :  <i class="fa fa-heart"  style="font-size: 20px;"></i></h3>
+                <h3><a class="clr"routerLink="/list">Inception Wave Event 4</a></h3> 
+          </div>
+      </div>
+      </th><br>
+    </tr> -->
+  
+
+</html> 
+  
+  
+  
